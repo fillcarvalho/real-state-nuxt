@@ -90,7 +90,8 @@ export default {
     '@/plugins/fontawesome.js',
     '@/plugins/global.js',
     '@/plugins/my-plugin.js',
-    '@/plugins/dayjs.js'
+    '@/plugins/dayjs.js',
+    '@/plugins/axios'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
