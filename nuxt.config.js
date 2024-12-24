@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'real-state',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt'
     },
     meta: [
       { charset: 'utf-8' },
@@ -12,16 +12,85 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'stylesheet', href: '/font-icons.css' },
+        { rel: 'stylesheet', href: '/animate.css' },
+        { rel: 'stylesheet', href: '/swiper-bundle.min.css' },
+        { rel: 'stylesheet', href: '/glightbox.css' },
+        { rel: 'stylesheet', href: '/style.css' }
+    ],
+    script: [
+      {
+        src: '/stickyHeader.js',
+        defer: true
+      },
+      {
+        src: '/accordion.js',
+        defer: true
+      },
+      {
+        src: '/service.js',
+        defer: true
+      },
+      {
+        src: '/search.js',
+        defer: true
+      },
+      {
+        src: '/drawer.js',
+        defer: true
+      },
+      {
+        src: '/swiper-bundle.min.js',
+        defer: true
+      },
+      {
+        src: '/silder.js',
+        defer: true
+      },
+      {
+        src: '/modal.js',
+        defer: true
+      },
+      {
+        src: '/tabs.js',
+        defer: true
+      },
+      {
+        src: '/glightbox.min.js',
+        defer: true
+      },
+      {
+        src: '/scrollUp.js',
+        defer: true
+      },
+      {
+        src: '/smoothScroll.js',
+        defer: true
+      },
+      {
+        src: '/isotope.pkgd.min.js',
+        defer: true
+      },
+      {
+        src: '/nice_checkbox.js',
+        defer: true
+      },
+      {
+        src: '/main.js',
+        defer: true
+      }
     ]
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '@/plugins/fontawesome.js',
+    '@/plugins/global.js',
+    '@/plugins/my-plugin.js',
+    '@/plugins/dayjs.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -36,10 +105,16 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: ['@nuxtjs/axios'],
+
+  router: {
+    middleware: ['apartments']
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  purgeCSS: {
+    whitelistPatterns: [/svg.*/, /fa.*/]
   }
 }
