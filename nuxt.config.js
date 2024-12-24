@@ -116,5 +116,16 @@ export default {
   },
   purgeCSS: {
     whitelistPatterns: [/svg.*/, /fa.*/]
+  },
+
+  // Not sensible variables. They are available at the browser
+  publicRuntimeConfig: {
+    websiteName: process.env.WEBSITE_NAME
+  },
+
+  // Sensible variables. They are secret
+  privateRuntimeConfig: {
+    someApiKey: process.env.SOME_API_KEY
   }
+
 }

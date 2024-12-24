@@ -1,5 +1,6 @@
 <template>
   <div>
+    <pre>{{$config}}</pre>
     <pre>{{$store.state.user}}</pre>
     <pre>{{user}}</pre>
   </div>
@@ -16,6 +17,9 @@ export default {
         user: state => state.user
       }
     )
+  },
+  asyncData({$config}) {
+    console.log($config);
   },
   mounted() {
     console.log(this.$name);
