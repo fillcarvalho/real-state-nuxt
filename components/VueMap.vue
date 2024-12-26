@@ -5,7 +5,7 @@
           allowfullscreen=""
           aria-hidden="false"
           loading="lazy"
-          class="w-full h-[10rem]"
+          class="w-full h-360px"
         ></iframe>
     </div>
 </template>
