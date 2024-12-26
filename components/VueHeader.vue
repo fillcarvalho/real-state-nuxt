@@ -21,7 +21,7 @@
             </li>
             <!-- item 2 -->
             <li class="relative group">
-              <a href="/quarter/index.html#"
+              <a href="#"
                  class="text-lg xl:text-15px 2xl:text-lg text-heading-color hover:text-secondary-color font-semibold whitespace-nowrap pl-10px py-22px">Apartamentos
                 <span class="text-sm font-extrabold -ml-0.5">+</span></a>
               <!-- dropdown -->
