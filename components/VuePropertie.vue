@@ -96,7 +96,7 @@
                             <span
                               class="inline-block absolute top-0 right-0 w-full h-full bg-secondary-color group-hover:bg-primary-color z-1 group-hover:w-0 transition-all duration-300"></span>
           <nuxt-link :to="{name: 'apartamento-slug', params: {slug: propertie.slug}}" class="relative w-full text-center z-10 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-heading-color leading-23px">
-            Veja mais informações
+            Veja mais informações <font-awesome-icon icon="fa-arrow-right"/>
           </nuxt-link>
         </div>
       </div>
