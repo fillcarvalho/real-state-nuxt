@@ -59,9 +59,20 @@ export default {
     return {
       name: '',
       isNameValid: true,
-      message: 'Olá, tenho interesse em saber mais sobre este apartamento.',
+      message: '',
       hasError: false,
       whatsAppPhoneNumber: 5516994273155
+    }
+  },
+  props: {
+    defaultMessage: {
+      type: String,
+      default: 'Olá, tenho interesse em saber mais sobre este apartamento.'
+    }
+  },
+  mounted() {
+    if ( this.defaultMessage !== '' ) {
+      this.message = this.defaultMessage;
     }
   },
   methods: {
