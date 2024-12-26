@@ -22,24 +22,24 @@ export default {
     script: [
       {
         src: '/accordion.js',
-        defer: true
+        // defer: true
       },
 
       {
         src: '/drawer.js',
-        defer: true
+        // defer: true
       },
       {
         src: '/swiper-bundle.min.js',
-        defer: true
+        // defer: true
       },
       {
         src: '/silder.js',
-        defer: true
+        // defer: true
       },
       {
         src: '/glightbox.min.js',
-        defer: true
+        // defer: true
       },
       // {
       //   src: '/isotope.pkgd.min.js',

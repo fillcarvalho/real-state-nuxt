@@ -29,9 +29,7 @@
                 class="py-15px border-t-[5px] border-secondary-color bg-white w-dropdown shadow-box-shadow-4 absolute left-0 top-full opacity-0 invisible translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-xl">
 
                 <li v-for="apartment in $apartments">
-                  <nuxt-link :to="{name: 'apartamento-slug', params: {slug: apartment.slug}}" class="whitespace-nowrap px-30px py-2">
-                    {{apartment.name}}
-                  </nuxt-link>
+                  <a :href="`/apartamento/${apartment.slug}`" class="whitespace-nowrap px-30px py-2">{{apartment.name}}</a>
                 </li>
 
               </ul>
