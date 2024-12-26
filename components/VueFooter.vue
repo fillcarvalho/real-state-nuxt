@@ -11,7 +11,7 @@
               class="px-25px lg:px-60px py-50px bg-secondary-color text-white flex justify-center lg:justify-between items-center flex-col lg:flex-row gap-y-30px lg:gap-0 sm:whitespace-nowrap">
               <div>
                 <h5 class="text-xl md:text-26px lg:text-3xl xl:text-4xl text-white font-bold mb-15px">
-                  <span class="leading-1.3">Quer sair do aluguél?</span>
+                  <span class="leading-1.3">Quer sair do aluguel?</span>
                 </h5>
                 <p class="text-white leading-1.8">
                   Divida em até 360 x com uma parcela que cabe no seu bolso
@@ -39,7 +39,7 @@
                   <img src="/logo-2.png" alt="">
                 </a>
                 <p class="leading-1.8 mb-5 lg:mb-25px text-white">
-                  Nós te ajudamos a sair do aluguél
+                  Nós te ajudamos a sair do aluguel
                 </p>
               </div>
             </div>

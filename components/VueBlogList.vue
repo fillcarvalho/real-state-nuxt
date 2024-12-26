@@ -13,7 +13,7 @@
           <h2
             class="text-2xl sm:text-3xl md:text-26px lg:text-3xl xl:text-44px text-heading-color font-bold"
           >
-            <span class="leading-1.3">Dicas importantes para você sair do aluguél</span>
+            <span class="leading-1.3">Dicas importantes para você sair do aluguel</span>
           </h2>
         </div>
         <p v-if="$fetchState.pending">Carregando....</p>

@@ -193,7 +193,7 @@ export default ({ app }, inject) => {
   // inject('posts', {
   //   1: {
   //     title: 'Post blog 1',
-  //     description: 'Aprenda como sair do aluguél',
+  //     description: 'Aprenda como sair do aluguel',
   //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum commodo justo, vitae tincidunt felis posuere vel. Nunc in purus ac nunc tincidunt mattis. Pellentesque euismod, mi eget vehicula auctor, metus ex placerat urna, ac pellentesque leo libero non velit. Maecenas consequat turpis eu libero faucibus congue. Suspendisse vel neque pellentesque, iaculis velit scelerisque, commodo lorem. Ut porttitor nibh sed ornare viverra. Vestibulum vehicula laoreet lorem at tincidunt. Morbi malesuada felis non finibus ultricies. Morbi non lacus at lectus laoreet dictum sit amet a augue. Maecenas condimentum dolor vitae quam suscipit volutpat. Cras venenatis neque nisi, sit amet ultrices ante accumsan eget. Maecenas ac volutpat enim. Donec at mattis dolor. Sed sed pulvinar ligula.\n' +
   //       '\n' +
   //       'Donec nec lorem pretium, scelerisque quam commodo, cursus urna. Curabitur consectetur vel orci id fringilla. Curabitur ac fermentum nulla, sit amet lacinia nibh. Donec ultricies tincidunt scelerisque. Cras vehicula convallis turpis id rutrum. Donec dictum rutrum blandit. Cras imperdiet ultricies dolor laoreet vulputate. Sed vel ullamcorper elit, nec finibus sapien. Maecenas odio massa, pulvinar ut est sit amet, viverra sollicitudin libero. Proin vitae auctor dolor, vitae fringilla neque. Mauris neque felis, congue non orci a, laoreet cursus quam. Quisque purus sem, aliquet et dolor sit amet, condimentum feugiat quam.\n' +
@@ -208,7 +208,7 @@ export default ({ app }, inject) => {
   //   },
   //   2: {
   //     title: 'Post blog 2',
-  //     description: 'Aprenda como sair do aluguél 2',
+  //     description: 'Aprenda como sair do aluguel 2',
   //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum commodo justo, vitae tincidunt felis posuere vel. Nunc in purus ac nunc tincidunt mattis. Pellentesque euismod, mi eget vehicula auctor, metus ex placerat urna, ac pellentesque leo libero non velit. Maecenas consequat turpis eu libero faucibus congue. Suspendisse vel neque pellentesque, iaculis velit scelerisque, commodo lorem. Ut porttitor nibh sed ornare viverra. Vestibulum vehicula laoreet lorem at tincidunt. Morbi malesuada felis non finibus ultricies. Morbi non lacus at lectus laoreet dictum sit amet a augue. Maecenas condimentum dolor vitae quam suscipit volutpat. Cras venenatis neque nisi, sit amet ultrices ante accumsan eget. Maecenas ac volutpat enim. Donec at mattis dolor. Sed sed pulvinar ligula.\n' +
   //       '\n' +
   //       'Donec nec lorem pretium, scelerisque quam commodo, cursus urna. Curabitur consectetur vel orci id fringilla. Curabitur ac fermentum nulla, sit amet lacinia nibh. Donec ultricies tincidunt scelerisque. Cras vehicula convallis turpis id rutrum. Donec dictum rutrum blandit. Cras imperdiet ultricies dolor laoreet vulputate. Sed vel ullamcorper elit, nec finibus sapien. Maecenas odio massa, pulvinar ut est sit amet, viverra sollicitudin libero. Proin vitae auctor dolor, vitae fringilla neque. Mauris neque felis, congue non orci a, laoreet cursus quam. Quisque purus sem, aliquet et dolor sit amet, condimentum feugiat quam.\n' +
@@ -223,7 +223,7 @@ export default ({ app }, inject) => {
   //   },
   //   3: {
   //     title: 'Post blog 3',
-  //     description: 'Aprenda como sair do aluguél 3',
+  //     description: 'Aprenda como sair do aluguel 3',
   //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum commodo justo, vitae tincidunt felis posuere vel. Nunc in purus ac nunc tincidunt mattis. Pellentesque euismod, mi eget vehicula auctor, metus ex placerat urna, ac pellentesque leo libero non velit. Maecenas consequat turpis eu libero faucibus congue. Suspendisse vel neque pellentesque, iaculis velit scelerisque, commodo lorem. Ut porttitor nibh sed ornare viverra. Vestibulum vehicula laoreet lorem at tincidunt. Morbi malesuada felis non finibus ultricies. Morbi non lacus at lectus laoreet dictum sit amet a augue. Maecenas condimentum dolor vitae quam suscipit volutpat. Cras venenatis neque nisi, sit amet ultrices ante accumsan eget. Maecenas ac volutpat enim. Donec at mattis dolor. Sed sed pulvinar ligula.\n' +
   //       '\n' +
   //       'Donec nec lorem pretium, scelerisque quam commodo, cursus urna. Curabitur consectetur vel orci id fringilla. Curabitur ac fermentum nulla, sit amet lacinia nibh. Donec ultricies tincidunt scelerisque. Cras vehicula convallis turpis id rutrum. Donec dictum rutrum blandit. Cras imperdiet ultricies dolor laoreet vulputate. Sed vel ullamcorper elit, nec finibus sapien. Maecenas odio massa, pulvinar ut est sit amet, viverra sollicitudin libero. Proin vitae auctor dolor, vitae fringilla neque. Mauris neque felis, congue non orci a, laoreet cursus quam. Quisque purus sem, aliquet et dolor sit amet, condimentum feugiat quam.\n' +
@@ -238,7 +238,7 @@ export default ({ app }, inject) => {
   //   },
   //   4: {
   //     title: 'Post blog 4',
-  //     description: 'Aprenda como sair do aluguél 4',
+  //     description: 'Aprenda como sair do aluguel 4',
   //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum commodo justo, vitae tincidunt felis posuere vel. Nunc in purus ac nunc tincidunt mattis. Pellentesque euismod, mi eget vehicula auctor, metus ex placerat urna, ac pellentesque leo libero non velit. Maecenas consequat turpis eu libero faucibus congue. Suspendisse vel neque pellentesque, iaculis velit scelerisque, commodo lorem. Ut porttitor nibh sed ornare viverra. Vestibulum vehicula laoreet lorem at tincidunt. Morbi malesuada felis non finibus ultricies. Morbi non lacus at lectus laoreet dictum sit amet a augue. Maecenas condimentum dolor vitae quam suscipit volutpat. Cras venenatis neque nisi, sit amet ultrices ante accumsan eget. Maecenas ac volutpat enim. Donec at mattis dolor. Sed sed pulvinar ligula.\n' +
   //       '\n' +
   //       'Donec nec lorem pretium, scelerisque quam commodo, cursus urna. Curabitur consectetur vel orci id fringilla. Curabitur ac fermentum nulla, sit amet lacinia nibh. Donec ultricies tincidunt scelerisque. Cras vehicula convallis turpis id rutrum. Donec dictum rutrum blandit. Cras imperdiet ultricies dolor laoreet vulputate. Sed vel ullamcorper elit, nec finibus sapien. Maecenas odio massa, pulvinar ut est sit amet, viverra sollicitudin libero. Proin vitae auctor dolor, vitae fringilla neque. Mauris neque felis, congue non orci a, laoreet cursus quam. Quisque purus sem, aliquet et dolor sit amet, condimentum feugiat quam.\n' +
@@ -253,7 +253,7 @@ export default ({ app }, inject) => {
   //   },
   //   5: {
   //     title: 'Post blog 5',
-  //     description: 'Aprenda como sair do aluguél 5',
+  //     description: 'Aprenda como sair do aluguel 5',
   //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum commodo justo, vitae tincidunt felis posuere vel. Nunc in purus ac nunc tincidunt mattis. Pellentesque euismod, mi eget vehicula auctor, metus ex placerat urna, ac pellentesque leo libero non velit. Maecenas consequat turpis eu libero faucibus congue. Suspendisse vel neque pellentesque, iaculis velit scelerisque, commodo lorem. Ut porttitor nibh sed ornare viverra. Vestibulum vehicula laoreet lorem at tincidunt. Morbi malesuada felis non finibus ultricies. Morbi non lacus at lectus laoreet dictum sit amet a augue. Maecenas condimentum dolor vitae quam suscipit volutpat. Cras venenatis neque nisi, sit amet ultrices ante accumsan eget. Maecenas ac volutpat enim. Donec at mattis dolor. Sed sed pulvinar ligula.\n' +
   //       '\n' +
   //       'Donec nec lorem pretium, scelerisque quam commodo, cursus urna. Curabitur consectetur vel orci id fringilla. Curabitur ac fermentum nulla, sit amet lacinia nibh. Donec ultricies tincidunt scelerisque. Cras vehicula convallis turpis id rutrum. Donec dictum rutrum blandit. Cras imperdiet ultricies dolor laoreet vulputate. Sed vel ullamcorper elit, nec finibus sapien. Maecenas odio massa, pulvinar ut est sit amet, viverra sollicitudin libero. Proin vitae auctor dolor, vitae fringilla neque. Mauris neque felis, congue non orci a, laoreet cursus quam. Quisque purus sem, aliquet et dolor sit amet, condimentum feugiat quam.\n' +

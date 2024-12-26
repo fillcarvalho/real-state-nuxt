@@ -288,5 +288,13 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'IndexPage',
+  head() {
+    return {
+      title: 'Saia do aluguel',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Sua chance de sair do aluguel está aqui. Veja os apartamentos populares disponíveis para compra' },
+      ],
+    }
+  },
 })
 </script>
