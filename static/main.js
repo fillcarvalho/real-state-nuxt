@@ -16,9 +16,6 @@ onload = (event) => {
 // accordion
   accordions();
 
-// quick view modal
-  modal();
-
 //glightbox
   GLightbox({
     touchNavigation: true,
@@ -44,10 +41,4 @@ onload = (event) => {
     slideEffect: "fade",
     videosWidth: "800px",
   });
-
-// scrollUp
-  scrollUp();
-
-// smooth scroll
-  smoothScroll();
 };

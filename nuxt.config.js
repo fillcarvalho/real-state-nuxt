@@ -28,10 +28,7 @@ export default {
         src: '/accordion.js',
         defer: true
       },
-      {
-        src: '/service.js',
-        defer: true
-      },
+
       {
         src: '/search.js',
         defer: true
@@ -49,23 +46,7 @@ export default {
         defer: true
       },
       {
-        src: '/modal.js',
-        defer: true
-      },
-      {
-        src: '/tabs.js',
-        defer: true
-      },
-      {
         src: '/glightbox.min.js',
-        defer: true
-      },
-      {
-        src: '/scrollUp.js',
-        defer: true
-      },
-      {
-        src: '/smoothScroll.js',
         defer: true
       },
       {
