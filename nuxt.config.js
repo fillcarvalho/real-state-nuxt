@@ -1,6 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    devtools: { enabled: true },
     title: 'real-state',
     htmlAttrs: {
       lang: 'pt'
@@ -13,11 +14,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'stylesheet', href: '/font-icons.css' },
-        { rel: 'stylesheet', href: '/animate.css' },
-        { rel: 'stylesheet', href: '/swiper-bundle.min.css' },
-        { rel: 'stylesheet', href: '/glightbox.css' },
-        { rel: 'stylesheet', href: '/style.css' }
     ],
     script: [
       {
@@ -56,7 +52,8 @@ export default {
     ]
   },
   css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
+    '@fortawesome/fontawesome-svg-core/styles.css',
+    '@assets/css/main.css'
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -80,7 +77,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', '@nuxtjs/tailwindcss'],
 
   router: {
     middleware: ['apartments']
@@ -88,8 +85,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {}
+        }
+      }
+    }
   },
   purgeCSS: {
+    enabled: true,
     whitelistPatterns: [/svg.*/, /fa.*/]
   },
 

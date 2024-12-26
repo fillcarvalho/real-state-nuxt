@@ -43,6 +43,30 @@ const silder = () => {
       },
     });
 
+    // testimonials slider
+    var swiper = new Swiper(".testimonials-slider", {
+      slidesPerView: 1,
+
+      loop: true,
+      speed: 800,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
     // news slider
     var swiper = new Swiper(".news-slider", {
       slidesPerView: 1,
@@ -70,6 +94,7 @@ const silder = () => {
     var swiper = new Swiper(".product-details-slider", {
       slidesPerView: 1,
       loop: true,
+
       speed: 800,
       preventClicksPropagation: false,
       centeredSlides: true,
