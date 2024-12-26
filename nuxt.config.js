@@ -95,8 +95,8 @@ export default {
     }
   },
   purgeCSS: {
-    enabled: true,
-    whitelistPatterns: [/svg.*/, /fa.*/]
+    // enabled: true,
+    whitelistPatterns: [/svg.*/, /fa.*/, /swiper.*/]
   },
 
   // Not sensible variables. They are available at the browser
