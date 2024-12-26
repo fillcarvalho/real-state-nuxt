@@ -636,10 +636,9 @@
 import VueSearch from '~/components/VueSearch.vue'
 
 export default {
-  name: 'VueHead',
+  name: 'VueHeader',
   components: { VueSearch },
   mounted() {
-    console.log("teste")
     this.stickHeader();
   },
   methods: {
