@@ -54,7 +54,7 @@
 </template>
 <script>
 export default {
-  name: 'vue-drop-message-form',
+  name: 'VueDropMessageForm',
   data () {
     return {
       name: '',
