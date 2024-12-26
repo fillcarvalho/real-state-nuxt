@@ -17,8 +17,8 @@
         <div class="swiper featured-apartments-slider static">
           <div class="swiper-wrapper">
             <!-- card 1 -->
-            <div v-for="apartment in apartments" class="swiper-slide mb-65px px-15px">
-              <vue-propertie :propertie="apartment"></vue-propertie>
+            <div v-for="apartment in properties" class="swiper-slide mb-65px px-15px">
+              <vue-property :property="apartment"></vue-property>
             </div>
           </div>
 
@@ -43,16 +43,16 @@
   </section>
 </template>
 <script>
-import VuePropertie from '~/components/VuePropertie.vue'
+import VueProperty from '~/components/VueProperty.vue'
 
 export default {
   name: 'vue-featured-properties',
-  components: { VuePropertie },
+  components: { VueProperty },
   props: {
     /**
      * Apartment list
      */
-    apartments: {
+    properties: {
       type: Array,
       required: true
     }

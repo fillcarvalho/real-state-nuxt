@@ -298,7 +298,7 @@
                 </div>
               </div>
               <!-- Related Properties -->
-              <vue-featured-properties :apartments="$apartments"></vue-featured-properties>
+              <vue-featured-properties :properties="$apartments"></vue-featured-properties>
             </div>
           </div>
           <!-- sidebar -->

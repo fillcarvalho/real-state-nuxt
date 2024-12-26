@@ -204,7 +204,7 @@
       <!--        </div>-->
     </section>
     <div class="container-3 ">
-      <vue-featured-properties :apartments="$apartments"></vue-featured-properties>
+      <vue-featured-properties :properties="$apartments"></vue-featured-properties>
     </div>
     <!-- about 2 section -->
     <section>
