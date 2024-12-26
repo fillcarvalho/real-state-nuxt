@@ -6,7 +6,7 @@
       <div
         class="w-full elative z-0 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-white after:bg-opacity-30 after:-z-1"
       >
-        <div class="container py-110px">
+        <div class="container mb-5">
           <h1
             class="text-2xl sm:text-3xl md:text-26px lg:text-3xl xl:text-4xl font-bold text-heading-color mb-15px"
           >
