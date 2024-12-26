@@ -1,5 +1,5 @@
 <template>
-  <h1 class="red">hello asdasd!</h1>
+  <vue-contact-form></vue-contact-form>
 </template>
 
 <script lang="ts">
