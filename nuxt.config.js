@@ -26,10 +26,6 @@ export default {
       },
 
       {
-        src: '/search.js',
-        defer: true
-      },
-      {
         src: '/drawer.js',
         defer: true
       },
@@ -45,14 +41,14 @@ export default {
         src: '/glightbox.min.js',
         defer: true
       },
-      {
-        src: '/isotope.pkgd.min.js',
-        defer: true
-      },
-      {
-        src: '/nice_checkbox.js',
-        defer: true
-      },
+      // {
+      //   src: '/isotope.pkgd.min.js',
+      //   defer: true
+      // },
+      // {
+      //   src: '/nice_checkbox.js',
+      //   defer: true
+      // },
       {
         src: '/main.js',
         defer: true
