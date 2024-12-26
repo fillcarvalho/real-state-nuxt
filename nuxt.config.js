@@ -21,10 +21,6 @@ export default {
     ],
     script: [
       {
-        src: '/stickyHeader.js',
-        defer: true
-      },
-      {
         src: '/accordion.js',
         defer: true
       },

@@ -4,9 +4,6 @@ onload = (event) => {
   // slider js
   silder();
 
-  // sticky hedder
-  stickystickyHeader();
-
 // search controller
   search();
 

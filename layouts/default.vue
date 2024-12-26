@@ -10,6 +10,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import VueHead from "~/components/VueHead.vue";
+import VueHead from "~/components/VueHeader.vue";
 import VueFooter from "~/components/VueFooter.vue";
 </script>
