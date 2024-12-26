@@ -4,9 +4,6 @@ onload = (event) => {
   // slider js
   silder();
 
-// search controller
-  search();
-
 // mobile menu
   drawer();
 
