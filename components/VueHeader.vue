@@ -38,9 +38,9 @@
             </li>
             <!-- item 6 -->
             <li>
-              <a href="/quarter/contact.html"
-                 class="text-lg xl:text-15px 2xl:text-lg text-heading-color hover:text-secondary-color font-semibold whitespace-nowrap pl-10px py-22px">Contato
-              </a>
+              <nuxt-link :to="{name: 'contato'}" class="text-lg xl:text-15px 2xl:text-lg text-heading-color hover:text-secondary-color font-semibold whitespace-nowrap pl-10px py-22px">
+                Contato
+              </nuxt-link>
             </li>
           </ul>
         </nav>

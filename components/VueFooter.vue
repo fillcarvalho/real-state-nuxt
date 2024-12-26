@@ -22,7 +22,7 @@
                   class="capitalize inline-block text-sm md:text-base text-primary-color hover:text-white hover:bg-primary-color relative group whitespace-nowrap font-normal transition-all duration-300 shadow-box-shadow-3 mb-0">
                   <span
                     class="inline-block absolute top-0 right-0 w-full h-full bg-white group-hover:bg-secondary-color z-1 group-hover:w-0 transition-all duration-300"></span>
-                  <nuxt-link :to="{route: 'contato'}" class="relative z-10 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-white leading-23px">
+                  <nuxt-link :to="{name: 'contato'}" class="relative z-10 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-white leading-23px">
                     Entre em contato <font-awesome-icon icon="fa-arrow-right"/>
                   </nuxt-link>
                 </h5>
@@ -64,10 +64,11 @@
               </h3>
               <ul class="space-y-[15px]">
                 <li>
-                  <a href="/quarter/login.html"
-                     class="hover:text-secondary-color -translate-x-5 hover:translate-x-0 group leading-1.8"><span
+                  <nuxt-link :to="{name: 'contato'}" class="hover:text-secondary-color -translate-x-5 hover:translate-x-0 group leading-1.8">
+                  <span
                     class="text-secondary-color pr-15px opacity-0 group-hover:opacity-100 transition-all duration-300">//</span>
-                    Fale conosco</a>
+                    Fale conosco
+                  </nuxt-link>
                 </li>
               </ul>
             </div>
